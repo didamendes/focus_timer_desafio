@@ -3,7 +3,7 @@ export default function Timer({
     segundosDisplay
 }) {
     let timerOut
-    let minutos
+    let minutos = Number(minutosDisplay.textContent)
 
     function countdown() {
         timerOut = setTimeout(function() {
