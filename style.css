@@ -1,0 +1,90 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 19rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer {
+    width: 32rem;
+    height: 21rem;
+    margin-right: 19rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer-texto {
+    font-size: 8rem;
+    line-height: 14rem;
+    text-align: center;
+    display: flex;
+
+    margin-bottom: 1.7rem;
+}
+
+.controler button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+.controler button img {
+    width: 4.8rem;
+}
+
+.controler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.sons {
+    width: 30rem;
+    height: 33rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.selecionar {
+    width: 13rem;
+    height: 15rem;
+    border-radius: 2.4rem;
+}
+
+.selecionar img {
+    width: 4.7rem;
+}
+
+.sons button:focus {
+    background-color: #02799D;
+}
+
+.sons button:first-child {
+    margin-right: 3.2rem;
+}
