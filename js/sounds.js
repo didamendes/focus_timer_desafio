@@ -20,6 +20,26 @@ export default function() {
         somFogo.play()
     }
 
+    function aumentarVolumeFloresta(volume) {
+        console.log(volume)
+        somArvore.volume = Number(volume)
+    }
+
+    function aumentarVolumeChuva(volume) {
+        console.log(volume)
+        somChuva.volume = Number(volume)
+    }
+
+    function aumentarVolumeCasa(volume) {
+        console.log(volume)
+        somCasa.volume = Number(volume)
+    }
+
+    function aumentarVolumeFogo(volume) {
+        console.log(volume)
+        somFogo.volume = Number(volume)
+    }
+
     function stopTodosSom() {
         somArvore.pause()
         somChuva.pause()
@@ -27,6 +47,7 @@ export default function() {
         somFogo.pause()
     }
 
-    return { tocarSomFloresta, tocarSomChuva, tocarSomCasa, tocarSomFogo, stopTodosSom }
+    return { tocarSomFloresta, tocarSomChuva, tocarSomCasa, tocarSomFogo, 
+        stopTodosSom, aumentarVolumeFloresta, aumentarVolumeChuva, aumentarVolumeCasa, aumentarVolumeFogo }
 
 }

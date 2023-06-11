@@ -12,7 +12,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="corpo">
+
+    <header>
+        <div class="white">
+            <img src="images/white.svg">
+        </div>
+
+        <div class="dark hide">
+            <img src="images/dark.svg">
+        </div>
+    </header>
+
     <main>
         <div class="timer card">
             <div class="timer-texto">
@@ -45,20 +56,24 @@
             <div class="superior">
                 <button class="arvore selecionar">
                     <img src="./images/arvore.svg">
+                    <input type="range" min="1" max="10" class="slider" id="inputArvore" value="5">
                 </button>
 
                 <button class="chuva selecionar">
                     <img src="./images/chuva.svg">
+                    <input type="range" min="1" max="10" class="slider" id="inputChuva" value="5">
                 </button>
             </div>
 
             <div class="inferior">
                 <button class="casa selecionar">
                     <img src="./images/casa.svg">
+                    <input type="range" min="1" max="10" class="slider" id="inputCasa" value="5">
                 </button>
 
                 <button class="fogo selecionar">
                     <img src="./images/fogo.svg">
+                    <input type="range" min="1" max="10" class="slider" id="inputFogo" value="5">
                 </button>
             </div>
 

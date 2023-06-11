@@ -12,10 +12,22 @@ body {
     font-size: 1.6rem;
 
     font-family: 'Roboto', sans-serif;
+    display: grid;
+}
+
+header {
+    justify-self: end;
+    align-self: end;
+    margin-top: 6rem;
+    margin-right: 6rem;
+}
+
+.hide {
+    display: none;
 }
 
 main {
-    margin: 19rem auto;
+    margin: 12rem auto;
 
     display: flex;
     align-items: center;
@@ -81,10 +93,15 @@ main {
     width: 4.7rem;
 }
 
-.sons button:focus {
+.sons button:focus-within {
     background-color: #02799D;
 }
 
 .sons button:first-child {
     margin-right: 3.2rem;
+}
+
+.slider {
+    margin-top: 3rem;
+    width: 9rem;
 }
